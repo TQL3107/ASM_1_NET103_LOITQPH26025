@@ -118,7 +118,7 @@ namespace ASM_1_NET103_LOITQPH26025.C.GUI.View
 
         private void btn_chuyen_Click(object sender, EventArgs e)
         {
-            QuanLySinhVien sv = new QuanLySinhVien();
+            FrmQLSinhVien sv = new FrmQLSinhVien();
             sv.ShowDialog();
         }
         public void timkiem()
